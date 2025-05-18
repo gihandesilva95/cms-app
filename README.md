@@ -20,9 +20,6 @@ A full-stack customer management application built with **Spring Boot** (Java 8)
 ### 2. Backend Setup (Java 8, Spring Boot, MariaDB)
     `cd cms`
 
-    # Copy .env file
-        `cp .env.example .env`
-
     # Set your database connection & credentials in application.properties:
 
         `spring.datasource.url=jdbc:mariadb://localhost:3306/your_db_name`
