@@ -1,0 +1,11 @@
+CREATE TABLE country (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE city (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    country_id BIGINT,
+    CONSTRAINT fk_city_country FOREIGN KEY (country_id) REFERENCES country(id)
+);
