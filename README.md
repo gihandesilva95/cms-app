@@ -15,7 +15,7 @@ A full-stack customer management application built with **Spring Boot** (Java 8)
 
 ### 1. Clone the repository
     `git clone <repository_url>`
-    cd cms_app
+    cd cms-app
 
 ### 2. Backend Setup (Java 8, Spring Boot, MariaDB)
     `cd cms`
